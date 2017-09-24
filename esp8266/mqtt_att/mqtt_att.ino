@@ -8,15 +8,15 @@
 
 // Update these with values suitable for your network.
 
-const char* ssid = "TP-LINK-RZ";
-const char* password = "AAAAAAAAAA";
+const char* ssid = "WiFi SSID .....";
+const char* password = "WiFi password .....";
 const char* mqtt_server = "api.allthingstalk.io";
 
-char deviceId[] = "sxBP79eJDwOelE3TFIufXTLY";
-char token[] = "maker:4PoWRlpZZautW1VeVvQHWBD5LcibxnmtOnAqzT6";
+char deviceId[] = "YourDeviceId...";
+char token[] = "YourDeviceToken...";
 
-char outTopicCounter[] = "device/sxBP79eJDwOelE3TFIufXTLY/asset/counter/state";
-char inTopic[] = "device/sxBP79eJDwOelE3TFIufXTLY/asset/+/command";
+char outTopicCounter[] = "device/[YourDeviceId]/asset/counter/state";
+char inTopic[] = "device/[YourDeviceId]/asset/+/command";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
