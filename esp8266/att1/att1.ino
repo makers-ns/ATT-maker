@@ -3,12 +3,12 @@
 #include <ATT_IOT.h>
 #include <SPI.h>  // required to have support for signed/unsigned long type.
 
-const char* ssid     = "TP-LINK-RZ";
-const char* password = "AAAAAAAAAA";
+const char* ssid     = "[SSID]";
+const char* password = "[PASSWORD]";
 
 // define device credentials
-char deviceId[] = "sxBP79eJDwOelE3TFIufXTLY";
-char token[] = "maker:4PoWRlpZZautW1VeVvQHWBD5LcibxnmtOnAqzT6";
+char deviceId[] = "[YourDeviceId]";
+char token[] = "[YourDeviceToken]";
 
 // define http and mqtt endpoints
 #define httpServer "api.allthingstalk.io"  // API endpoint
